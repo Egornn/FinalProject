@@ -2,26 +2,25 @@
 Организуйте систему учёта для питомника, в котором живут домашние и вьючные животные!
 ## Задание 1
 1. Используя команду cat в терминале операционной системы Linux, создать два файла Домашние животные (заполнив файл собаками, кошками, хомяками) и Вьючные животными заполнив файл Лошадьми, верблюдами и ослы, а затем объединить их. Просмотреть содержимое созданного файла. Переименовать файл, дав ему новое имя (Друзья человека).
-![Image task 1](https://github.com/Egornn/FinalProject/blob/main/1.PNG?raw=true)
+![Image task 1](https://github.com/Egornn/FinalProject/blob/main/pic/1.PNG?raw=true)
 
 2. Создать директорию, переместить файл туда.
-![Image task 2 part 1](./2.png)
-![Image task 2 part 2](./2-1.png)
+![Image task 2 part 1](https://github.com/Egornn/FinalProject/blob/main/pic/2.PNG?raw=true)
+![Image task 2 part 2](https://github.com/Egornn/FinalProject/blob/main/pic/2-1.PNG?raw=true)
 
 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет из этого репозитория.
-![Image task 3](./2.png)
+![Image task 3](https://github.com/Egornn/FinalProject/blob/main/pic/3.PNG?raw=true)
 
 4. Установить и удалить deb-пакет с помощью dpkg.
-![Image task 4 part 1](./4-1.png)
-![Image task 4 part 2](./4-2.png)
-![Image task 4 part 3](./4-3.png)
-![Image task 4 part 4](./4-4.png)
+![Image task 4 part 1](https://github.com/Egornn/FinalProject/blob/main/pic/4-1.PNG?raw=true)
+![Image task 4 part 2](https://github.com/Egornn/FinalProject/blob/main/pic/4-2.PNG?raw=true)
+![Image task 4 part 3](https://github.com/Egornn/FinalProject/blob/main/pic/4-3.PNG?raw=true)
 
 5. Выложить историю команд в терминале ubuntu
-![Image task 5](./5.png)
+![Image task 5](https://github.com/Egornn/FinalProject/blob/main/pic/5.PNG?raw=true)
 
-6. Нарисовать диаграмму, в которой есть класс родительский класс, домашние животные и вьючные животные, в составы которых в случае домашних животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные войдут: Лошади, верблюды и ослы.
-![Image task 6](./6.png)
+6. Нарисовать [диаграмму](https://github.com/Egornn/FinalProject/blob/main/pic/6.png), в которой есть класс родительский класс, домашние животные и вьючные животные, в составы которых в случае домашних животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные войдут: Лошади, верблюды и ослы.
+![Image task 6](https://github.com/Egornn/FinalProject/blob/main/pic/6.png?raw=true)
 7. В подключенном MySQL репозитории создать базу данных “Друзья
 человека”
 ```sql
