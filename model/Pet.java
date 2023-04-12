@@ -6,19 +6,19 @@ import java.time.format.DateTimeFormatter;
 
 
 public abstract class Pet {
-    protected int petID;
+    protected int id;
     protected String name;
     protected LocalDate birthdate;
     
 
     @Override
     public String toString() {
-        return String.format("Pet (ID: %d) named %s whos birthdate is %s ", name, petID, birthdate.toString());
+        return String.format("Pet (ID: %d) named %s whos birthdate is %s ", name, id, birthdate.toString());
 
     }
 
     public void setID(int id) {
-        this.petID = id;
+        this.id = id;
 
     }
     public void setName(String name) {
@@ -32,7 +32,7 @@ public abstract class Pet {
     
     
     public int getID() {
-        return petID;
+        return id;
     }
 
     public String getName() {
