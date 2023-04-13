@@ -87,7 +87,7 @@ public class ConsoleMenu {
     }
 
     private PetType menuChoice(Scanner in) {
-        System.out.println("Who to add :\n1 - КCat \n2 - Dog\n3 - Rat\n0 - Back");
+        System.out.println("Who to add :\n1 - Cat \n2 - Dog\n3 - Rat\n0 - Back");
 
         while (true) {
             String key = in.next();
