@@ -15,7 +15,7 @@ import model.*;
 public class Shelter implements ShelterInterface{
     private Creator PetCreator;
     private Statement sqlStatement;
-    private result result;
+    private ResultSet result;
     private String sqlString;
 
     public Shelter() {
@@ -49,7 +49,7 @@ public class Shelter implements ShelterInterface{
             Logger.getLogger(Shelter.class.getName()).log(Level.SEVERE, null, ex);
             throw new RuntimeException(ex.getMessage());
         }
-        return null;
+        //return null;
     }
 
     @Override
@@ -202,6 +202,4 @@ public class Shelter implements ShelterInterface{
             return DriverManager.getConnection(url, username, password);
         }
     }
-}
-
 }
